@@ -36,5 +36,5 @@
 - [改行・空白・タブ削除ツール｜ちょっと便利なツール・ジェネレーター置き場](https://html-css-javascript.com/n-space-tab/)
 - [Bookmarklet Maker](https://caiorss.github.io/bookmarklet-maker/)
 - [Chrome Dev Toolでブックマークレットを実行する - Qiita](https://qiita.com/kanaxx/items/0fe8e7e2deea482960b0)
-    - 当スクリプトで使用している `navigator.clipboard.writeText()` は開発者ツールで実行できないので注意。
+    - 当スクリプトで使用している `navigator.clipboard.writeText()` は開発者ツールで実行できないので注意。  
     参考: [navigator.clipboard.writeText() で「Document is not focused.」エラー - キリウ君が読まないノート](https://note.kiriukun.com/entry/20200908-document-is-not-focused-error-on-calling-navigator-clipboard-writetext)
