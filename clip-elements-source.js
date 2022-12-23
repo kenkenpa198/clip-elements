@@ -17,8 +17,8 @@ javascript:(
             texts.push(elements[i].innerText);
         }
 
-        // 配列を連結
-        let out_string = texts.join(',\n');
+        // 配列をカンマ・改行区切りで連結
+        let out_string = texts.join(',\n') + '\n';
 
         // クリップボードへコピーする
         try {
