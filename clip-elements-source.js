@@ -2,8 +2,8 @@
 javascript:(
     function(){
         // 要素を取得
-        const GET_CLASS_NAME = 'mw-headline';
-        let elements = document.getElementsByClassName(GET_CLASS_NAME);
+        const GET_SELECTOR = '.mw-headline';
+        let elements = document.querySelectorAll(GET_SELECTOR);
 
         // 要素が取得できていない場合はアラートを表示して終了
         if (!(elements.length)) {
